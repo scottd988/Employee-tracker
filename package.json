@@ -4,5 +4,15 @@
     "inquirer": "^8.2.4",
     "mysql2": "^3.9.2",
     "table": "^6.8.1"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "employee-tracker",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
 }
