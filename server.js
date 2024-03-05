@@ -134,7 +134,7 @@ var employeeTracker =  () => {
     });
         })
     });
-        //
+        // adding employee
  } else if (answers.prompt === 'Add an employee') {
         db.query('SELECT * FROM role',  (err, department) => {
             if (err) throw err;
@@ -152,6 +152,7 @@ var employeeTracker =  () => {
                 }
               },
         {
+            // salary
           type: 'input',
           name: 'salary',
           message: 'What is the employee\'s salary?',
@@ -190,7 +191,7 @@ var employeeTracker =  () => {
       });
     })
       });
-         //
+         //to add an employee
 
       } else if (answers.prompt === "Add an employee") {
         // query to get all roles
