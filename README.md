@@ -28,3 +28,5 @@ node server.js
 This project is licensed under the MIT License
 [MIT License]
 
+![Screenshots](/assets/addARole.png "This is a sample image.")
+![Screenshot](/assets/screenshotInquirer.png "This is a sample image.")
